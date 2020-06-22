@@ -1,0 +1,31 @@
+{
+    "name": "esir-tp6",
+    "version": "1.0.0",
+    "description": "api alert",
+    "main": "server.js",
+    "scripts": {
+        "test": "mocha --timeout 10000 --exit ./alert-api/test/",
+        "start": "nodemon server.js"
+    },
+    "author": "Marius Katou",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "bcrypt": "^5.0.0",
+        "body-parser": "^1.19.0",
+        "chai": "^4.2.0",
+        "chai-http": "^4.3.0",
+        "config": "^3.3.1",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "fs": "0.0.1-security",
+        "helmet": "^3.23.0",
+        "jsonwebtoken": "^8.5.1",
+        "mocha": "^8.0.1",
+        "mongoose": "^5.9.19",
+        "nodemon": "^2.0.4",
+        "nyc": "^15.1.0",
+        "tcomb": "^3.2.29",
+        "uuid": "^8.1.0"
+    }
+}
